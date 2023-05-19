@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	margin: 0;
+	width: 100vw;
+	heigh: 100vm;
 }
 
 ol, ul {
