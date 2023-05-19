@@ -1432,43 +1432,19 @@ input, select, textarea {
 			}
 
 /* Button */
+/* CSS code for iPhone screens */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px)
   and (-webkit-device-pixel-ratio: 3) {
 
-  .button {
+  .button.large.icon.solid.fa-check-circle {
     /* Adjust the button styles here */
-    max-width: 100%;
-    max-width: 100%;
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		-moz-transition: background-color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out;
-		-webkit-appearance: none;
-		position: relative;
-		display: inline-block;
-		background-color: #4091bf;
-		border-radius: 8px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.35);
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
-		color: #fff !important;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: 800;
-		font-size: 0.95em;
-		letter-spacing: 0.075em;
-		padding: 1em 2em;
-		outline: 0;
-		border: 0;
-		white-space: nowrap;
-		cursor: pointer;
+    font-size: 14px;
+    padding: 8px 12px;
   }
 }
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
