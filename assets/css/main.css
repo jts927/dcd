@@ -1440,7 +1440,8 @@ input, select, textarea {
 
   .button.large.icon.solid.fa-check-circle {
     /* Adjust the button styles here */
-    font-size: 60px;
+    max-width: 100%;
+font-size: 8px;
     padding: 8px 12px;
   }
 }
