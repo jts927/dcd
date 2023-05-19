@@ -1432,7 +1432,18 @@ input, select, textarea {
 			}
 
 /* Button */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
+  and (-webkit-device-pixel-ratio: 3) {
 
+  .button {
+    /* Adjust the button styles here */
+    max-width: 100%;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
