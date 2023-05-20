@@ -1438,7 +1438,11 @@ input, select, textarea {
   and (max-device-width: 812px)
   and (-webkit-device-pixel-ratio: 3) {
 
-  .button.large.icon.solid.fa-check-circle {
+  .button.large.icon.solid.fa #banner {
+    /* Add your iPhone-specific styles here */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }check-circle {
     /* Adjust the button styles here */
     		max-width: 100%
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
