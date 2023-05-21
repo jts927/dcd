@@ -1437,6 +1437,35 @@ input, select, textarea {
   and (min-device-width: 375px) 
   and (max-device-width: 812px)
   and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
+    /* Adjust the styles as needed for iPhone screens */
+    #banner {
+      padding: 5px;
+    }
+
+    .button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+	 #banner {
+    text-align: center;
+    padding: 10px;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* CSS styles for the button */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+	}}
 
   .button.large.icon.solid.fa #banner {
     /* Add your iPhone-specific styles here */
